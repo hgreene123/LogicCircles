@@ -27,14 +27,17 @@ public class DirectionalNode : MonoBehaviour
     {
         if(current == "left")
         {
+            Debug.Log("Choose left");
             sr.sprite = left;
         }
         else if(current == "right")
         {
+            Debug.Log("Choose right");
             sr.sprite = right;
         }
         else
         {
+            Debug.Log("Choose None");
             sr.sprite = none;
         }
     }
